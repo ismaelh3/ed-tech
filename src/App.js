@@ -1,21 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
+// react apps are made out of components, for example a button
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className = "App">
+      <header className = "App-header">
+        <img src= {logo} className = "App-logo" alt = "logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello <code> World </code> !!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a className = "App-link" href = "https://reactjs.org"
+          target = "_blank" rel = "noopener noreferrer" >
+          Nothing to See Here! O.O
         </a>
       </header>
     </div>
