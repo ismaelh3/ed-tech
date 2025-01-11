@@ -7,22 +7,17 @@
 - .active =>
 ********************************************************************/
 
+/*************** MAIN NAVIGATION BAR ***************/
+
 .NavigationBar {
     display: flex;
-    justify-content: center;
-    background-color: #31b3c4;
+    height: 6rem;
     margin: 0%;
     overflow: hidden;
-}
-
-.templogo {
-    padding: 0.5rem;
-    height: 5rem;
-    width: 15rem;
+    background-color: #31b3c4;
 }
 
 .NavigationBar a {
-    float: left;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -31,7 +26,7 @@
 
 .NavigationBar a:hover {
     background-color: #7bc4ce;
-    color: blue;
+    color: rgb(8, 0, 247);
 }
 
 .NavigationBar a.active {
@@ -39,8 +34,38 @@
     color: black;
 }
 
-.searchbar {
+/*************** SEARCH BAR AND SIGN IN ***************/
+
+.FirstThree {
+    width: 40%;
+}
+
+.FirstThree a {
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1.5rem 2rem;
+}
+
+.Middle {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.TempLogo {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 15rem;
+}
+
+
+.LastThree {
+    width: 40%;
+}
+
+.SearchBar {
     font-family: Chalkduster, fantasy;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
