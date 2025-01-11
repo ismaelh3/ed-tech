@@ -7,36 +7,40 @@
 - .active =>
 ********************************************************************/
 
-.navbar {
+.NavigationBar {
     display: flex;
     justify-content: center;
-    font-family: Chalkduster, fantasy;
     background-color: #31b3c4;
     margin: 0%;
     overflow: hidden;
 }
 
-.navbar a {
+.templogo {
+    padding: 0.5rem;
+    height: 5rem;
+    width: 15rem;
+}
+
+.NavigationBar a {
     float: left;
     font-weight: bolder;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 15px 20px;
-    font-size: 18px;
+    padding: 1.5rem 2rem;
 }
 
-.navbar a:hover {
+.NavigationBar a:hover {
     background-color: #7bc4ce;
     color: blue;
 }
 
-.navbar a.active {
+.NavigationBar a.active {
     background-color: aliceblue;
     color: black;
 }
 
-.search {
+.searchbar {
     font-family: Chalkduster, fantasy;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }

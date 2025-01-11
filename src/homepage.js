@@ -2,14 +2,15 @@ import './homepage.css';
 
 function NavigatonBar() {
     return (
-        <div className = "navbar">
-            <a className = "options" href = "#home"> Home </a>
+        <div className = "NavigationBar">   
+            <a className = "options" href = "#road"> Roadmap </a>
             <a href = "#explore"> Explore </a>
             <a href = "#resources" > Resources </a>
+            <img src = "https://banner2.cleanpng.com/20180503/uaq/avdoc9im6.webp" alt = "logo" className = "templogo"/>
             <a href = "#about" > About </a>
-            <input className = "search" placeholder = 'Search...'/>
-            <a href = "#signin" > Sign In </a>
-        </div>
+            <a href = "#signin"> Sign In </a>
+            <input className = "searchbar" placeholder = 'Search...'/>
+        </div> 
     );
 }
 
