@@ -7,10 +7,10 @@ function NavigatonBar() {
             <a href = "#explore"> Explore </a>
             <a href = "#resources" > Resources </a>
             <a href = "#about" > About </a>
-            <div className = "search"> Search </div>
+            <input className = "search" placeholder = 'Search...'/>
             <a href = "#signin" > Sign In </a>
         </div>
     );
-  }
+}
 
-  export default NavigatonBar;
+export default NavigatonBar;

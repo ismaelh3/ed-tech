@@ -1,13 +1,42 @@
+
+/****************************** NOTES *********************************
+- float: => pushes item to either far right or left
+- padding => expands box around the item, covers more
+- overflow => dictates what happens when there is overlap
+- :hover => use to adjust how item looks when user hovers over it
+- .active =>
+********************************************************************/
+
 .navbar {
+    display: flex;
+    justify-content: center;
+    font-family: Chalkduster, fantasy;
     background-color: #31b3c4;
-    height: 15%;
-    width: 100%;
+    margin: 0%;
+    overflow: hidden;
 }
 
 .navbar a {
-    font-family: fantasy;
-    font-style: oblique;
-    color: rgb(246, 255, 0);
-    margin-left: 40px;
-    margin-right: 40px;
+    float: left;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #7bc4ce;
+    color: blue;
+}
+
+.navbar a.active {
+    background-color: aliceblue;
+    color: black;
+}
+
+.search {
+    font-family: Chalkduster, fantasy;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
