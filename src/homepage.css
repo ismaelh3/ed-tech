@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #31b3c4;
+    height: 15%;
+    width: 100%;
+}
+
+.navbar a {
+    font-family: fantasy;
+    font-style: oblique;
+    color: rgb(246, 255, 0);
+    margin-left: 40px;
+    margin-right: 40px;
+}
