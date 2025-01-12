@@ -2,20 +2,36 @@ import './homepage.css';
 
 function NavigatonBar() {
     return (
-    <div className = 'NavigationBar'>
-        <div className = 'FirstDiv'>   
-            <a href = "#road"> Roadmap </a>
-            <a href = "#Explore"> Explore </a>
-            <a href = "#Resources" > Resources </a>
-            <a href = "#About" > About </a>      
-        </div> 
-        <div className = "MiddleDiv"> 
-            <img src = "https://banner2.cleanpng.com/20180503/uaq/avdoc9im6.webp" alt = "logo" className = "TempLogo"/> 
-        </div>
-        <div className = "ThirdDiv"> 
-            <input className = "SearchBar" type = 'text' placeholder = 'Search...'/>
-            <a href = "#SignIn"> Sign In </a>
-        </div> 
+    <div id = 'MainContainer'>
+        <nav className = 'NavigationBar' role = 'navigation'>
+            <div className = 'Container'>
+                <div className = 'FirstDiv'> 
+                        <div className = 'RoadMap'> 
+                            <a href = "https://www.khanacademy.org/"> Roadmap </a>
+                        </div>
+                        <div className = 'Explore'>
+                            <a href = "https://www.callofdutyleague.com/en-us/"> Explore </a>
+                        </div>
+                        <div className = 'Resources'>
+                            <a href = "https://scratch.mit.edu/" > Resources </a>
+                        </div>
+                        <div className = 'About'> 
+                            <a href = "https://www.apple.com/" > About </a>      
+                        </div>
+                </div> 
+                <div className = "MiddleDiv"> 
+                    <div className = "TheLogo">
+                        <img src = "https://banner2.cleanpng.com/20180503/uaq/avdoc9im6.webp" alt = "logo" className = "TempLogo"/> 
+                    </div>
+                </div>
+                <div className = "ThirdDiv"> 
+                    <div className = 'Search'>
+                        <input className = "SearchBar" type = 'text' placeholder = 'Search...'/>
+                        <a href = "#SignIn"> Sign In </a>
+                    </div>
+                </div>
+            </div> 
+        </nav>
     </div>
     );
 }
