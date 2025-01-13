@@ -27,7 +27,9 @@ function NavigatonBar() {
                 <div className = "ThirdDiv"> 
                     <div className = 'Search'>
                         <input className = "SearchBar" type = 'text' placeholder = 'Search...'/>
-                        <a href = "#SignIn"> Sign In </a>
+                        <div className = 'SignIn'>
+                            <a href = "#SignIn" className = 'SignButton'> Sign In </a>
+                        </div>
                     </div>
                 </div>
             </div> 
